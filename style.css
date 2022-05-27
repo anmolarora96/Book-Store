@@ -28,8 +28,6 @@ box-shadow: 0px 10px 10px 0px rgba(0, 0, 0, 0.5);
 #title .container-fluid {
   padding: 0% 8% 2%;
   padding-left: 3%;
-
-
 }
 
 .mantra1 {
@@ -37,9 +35,7 @@ box-shadow: 0px 10px 10px 0px rgba(0, 0, 0, 0.5);
   font-family: 'Lobster', cursive;
   color: white;
 }
-#carouselExampleControls{
-  z-index:-1;
-}
+
 .mantra2 {
   margin-left: 10%;
   font-family: 'Lobster', cursive;
@@ -269,6 +265,7 @@ box-shadow: 0px 10px 10px 0px rgba(0, 0, 0, 0.5);
 }
 
 .footer-contain {
+
   background-color: #5D8BF4;
 height: 250px;
 }
@@ -308,6 +305,9 @@ height: 250px;
    position: fixed;
    margin-top: 3%;
  }
+ .nav{
+   z-index:1;
+ }
  .navbar-collapse{
    position: fixed;
    margin-left: 67%;
@@ -317,7 +317,6 @@ height: 250px;
     padding-top: 5%;
     text-align: center;
   }
-  
 #Services{
   padding: 5% 5% 2%;
 }
@@ -362,8 +361,6 @@ height: 250px;
   #Services {
     position: relative;
     padding: 7% 7% 7%;
-
-
   }
   .contactus{
     margin-top: 50%;
@@ -401,6 +398,8 @@ height: 250px;
     margin-left: 90%;
   }
 }
+/* media ends */
+
 
 .feature-box {
 padding: 0% 5%;
@@ -536,6 +535,8 @@ form button:hover {
 
 .subscribe-btn {
   background-color: #0b8cd7;
+  width:200px;
+  border-radius: 10px;
 }
 
 #subscribe {
