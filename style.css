@@ -185,6 +185,7 @@ h3 {
 
 .hello {
   color: #5D8BF4;
+  font-size: 20px;
 }
 
 .testimonial-text {
@@ -329,7 +330,9 @@ height: 250px;
     padding-left: 11%;
   }
 
-
+.hello {
+  font-size: 26px;
+}
 
   .stand-1 {
     position: absolute;
