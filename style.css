@@ -288,13 +288,34 @@ height: 250px;
 }
 
 @media (max-width: 990px) {
+  body{
+    max-width: 200%;
+    text-align: center;
+    overflow-x: hidden;
+  }
   .nav-item {
     text-align: left;
   }
-
+   .navbar-toggler-right{
+   position: fixed;
+   border-color: rgb(255,102,203);
+   margin-left: 78%;
+   margin-top: 5%;
+ }
+ .navbar-brand{
+   position: fixed;
+   margin-top: 3%;
+ }
+ .navbar-collapse{
+   position: fixed;
+   margin-left: 67%;
+   margin-top: 30%;
+ }
   #title {
+    padding-top: 5%;
     text-align: center;
   }
+  
 #Services{
   padding: 5% 5% 2%;
 }
