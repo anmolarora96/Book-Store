@@ -1,0 +1,588 @@
+body {
+  background-color: #FFEEEE;
+  text-align: center;
+  max-width: 100%;
+    overflow-x: hidden;
+}
+
+#title {
+  background-color: #D18CE0;
+  padding-bottom: 5%;
+  position: relative;
+box-shadow: 0px 10px 10px 0px rgba(0, 0, 0, 0.5);
+  border-bottom-right-radius: 100px;
+  border-bottom-left-radius: 100px;
+}
+
+.home, .shop, .login, .about, .contact {
+  color: #D9D7F1;
+  padding: 2%;
+
+}
+
+.container-fluid {
+  padding: 7% 15% ;
+}
+
+/* CONTAINER-FLUID INSIDE TITLE ID */
+#title .container-fluid {
+  padding: 0% 8% 2%;
+  padding-left: 3%;
+
+
+}
+
+.mantra1 {
+  margin-left: 10%;
+  font-family: 'Lobster', cursive;
+  color: white;
+}
+
+.mantra2 {
+  margin-left: 10%;
+  font-family: 'Lobster', cursive;
+  color: white;
+}
+
+/* mantras animations */
+.mantra1, .mantra2{
+
+  background-image: linear-gradient(
+    -225deg,
+    white 0%,
+    #44107a 29%,
+    #ff1361 67%,
+    #fff800 100%
+  );
+  background-size: auto auto;
+  background-clip: border-box;
+  background-size: 200% auto;
+  color: #fff;
+  background-clip: text;
+  text-fill-color: transparent;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: textclip 10s linear infinite;
+  display: inline-block;
+      font-size: 40px;
+}
+
+@keyframes textclip {
+  to {
+    background-position: 200% center;
+  }
+}
+
+
+
+.coverbook {
+  margin-bottom: 0%;
+}
+
+.cover-book {
+  padding-top: 5%;
+}
+
+.monthedition {
+  margin-top: 10%;
+}
+
+.month-edition {
+  margin-top: 2%;
+  margin-left: -30%;
+
+}
+
+.bigsale {
+  margin-left: 100%;
+  margin-top: 0;
+  width: auto;
+}
+
+.bigsaleimage {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.coverart {
+  margin-left: 10%;
+  margin-bottom: 50%;
+}
+
+.stand-1 {
+  margin-top: -3.5%;
+}
+
+.stand-2 {
+  margin-top: -1.8%;
+  margin-left: -8.5%;
+}
+
+.stand-3, .stand-4, .stand-5, .stand-6, .stand-7 {
+  margin-top: -3%;
+}
+
+.stand-8, .stand-10 {
+  margin-top: 0.5%;
+}
+.stand-9{
+  margin-top: -1%;
+}
+
+.Button1 {
+  padding: 2%;
+}
+
+.Button2 {
+  margin-top: -6%;
+  margin-left: -8%;
+  padding: 2%;
+}
+
+.nav-item {
+  margin: 0% 5% 0%;
+  padding: 6% 0% 0%;
+  font-size: 2%;
+  text-align: justify;
+}
+
+.navbar {
+  padding-bottom: 0 0 4.5rem;
+}
+
+.navbar-brand {
+  font-size: 2.5rem;
+  font-weight: bold;
+  padding-top: 0.5%;
+  padding-left: 2%;
+
+}
+
+/* NAVIGATION LINKS */
+.nav-link {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.column2 {
+  padding-right: 5%;
+}
+
+.fa-solid {
+  color: #5D8BF4;
+  margin-bottom: 1rem;
+}
+
+h1 {
+  color: #573391;
+  padding-top: 5%;
+  font-family: 'Pacifico', cursive;
+
+}
+
+h3 {
+  color: #573391;
+  font-family: 'Lobster', cursive;
+}
+
+.hello {
+  color: #5D8BF4;
+}
+
+.testimonial-text {
+  color: #573391;
+  font-family: serif;
+}
+
+#carouselExampleControls {
+  background-color: #F2C9E1;
+  background-repeat: no-repeat;
+background-size: 1380px 1580px;
+box-shadow: 0px 10px 10px 0px rgba(0, 0, 0, 0.5);
+  border-bottom-right-radius: 100px;
+  border-bottom-left-radius: 100px;
+}
+
+#reviews{
+  background-color: #EEEEEE;
+  box-shadow: 0px 10px 10px 0px rgba(0, 0, 0, 0.5);
+    border-bottom-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+
+  /* border-top-right-radius: 100%; */
+  /* border-top-left-radius: 100%; */
+}
+#contactus{
+  background-color: #F7F7F7;
+  box-shadow: 0px 10px 10px 0px rgba(0, 0, 0, 0.5);
+    border-bottom-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+
+}
+.btn-motivation {
+  margin-top: 2.8%;
+}
+
+.btn-lifestory {
+  margin-top: 3.2%;
+}
+
+.btn-musicmantra {
+  margin-top: 3%;
+}
+
+.testimonial-images {
+  width: 10%;
+  border-radius: 50%;
+}
+
+.checked {
+  color: gold;
+}
+
+.container-sm {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 20px;
+}
+
+.card {
+  background-color: #F7F7F7;
+  padding: 15px;
+  border: none;
+  height: 250px;
+  margin-top: 10px
+}
+
+.u-color {
+  color: blue
+}
+
+.user-image img {
+  border: 3px solid #00f;
+  padding: 2px
+}
+
+.footer-contain {
+  background-color: #5D8BF4;
+height: 250px;
+}
+
+.fa-brands {
+  color: white;
+}
+
+.fa-solid {
+  color: white;
+}
+
+.Copyright {
+  color: white;
+}
+
+.cards {
+  background-color: #F2C9E1;
+}
+
+@media (max-width: 990px) {
+  .nav-item {
+    text-align: left;
+  }
+
+  #title {
+    text-align: center;
+  }
+#Services{
+  padding: 5% 5% 2%;
+}
+  .month-edition {
+    margin-left: -5%;
+    width: 450px;
+  }
+
+  .Button2 {
+    padding-left: 11%;
+  }
+
+  #footer {
+    margin-top: 20%;
+  }
+
+  .stand-1 {
+    position: absolute;
+    margin-top: 46%;
+    margin-left: -35.5%;
+  }
+
+  .stand-2 {
+    position: absolute;
+    margin-top: 31%;
+    margin-left: -49%;
+  }
+
+  .stand-8, .stand-9, .stand-10{
+    margin-left: -15%;
+  }
+
+  .Button2 {
+    margin-top: 5%;
+    margin-left: -5%;
+  }
+
+.lampmonthedition{
+  margin-left:4.5%;
+}
+  #Services {
+    position: relative;
+    padding: 7% 7% 7%;
+
+
+  }
+  .contactus{
+    margin-top: 50%;
+    margin-left: 8%;
+  }
+
+#subscribe{
+  margin-left: 1%;
+}
+
+  #reviews{
+    margin-left: 1%;
+    padding-bottom: 3%;
+  }
+
+  #books-catalogue{
+    margin-left: 1.5%;
+
+  }
+.cover-book1{
+  margin-left: -3%;
+}
+.cover-book2{
+  margin-left: -4.5%;
+
+}
+.cover-book3{
+  margin-left: -2.5%;
+}
+  .stand-8, .stand-9, .stand-10{
+  width: 100px;
+  }
+
+  .nav-item {
+    margin-left: 90%;
+  }
+}
+
+.feature-box {
+padding: 0% 5%;
+}
+
+/* subscribe */
+
+.start-btn a {
+  font-size: 30px;
+  /* background: purple; */
+  color: white;
+
+  border-radius: 18px;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+
+.modal-box {
+  top: 40%;
+  opacity: 0;
+  visibility: hidden;
+  background: white;
+  height: auto;
+  width: 400px;
+  padding: 38px 30px;
+  border-radius: 5px;
+  box-shadow: 5px 5px 30px rgba(0, 0, 0, .2);
+}
+
+.start-btn.show-modal {
+  opacity: 0;
+  visibility: hidden;
+}
+
+.modal-box.show-modal {
+  top: 50%;
+  opacity: 1;
+  visibility: visible;
+  transition: .4s;
+}
+
+.modal-box .fa-times {
+  position: absolute;
+  top: 0;
+  right: 0;
+  background: #0569d4;
+  height: 40px;
+  width: 40px;
+  line-height: 40px;
+  margin: 10px;
+  color: white;
+  font-size: 18px;
+  border-radius: 100%;
+  cursor: pointer;
+}
+
+.fa-times:hover {
+  font-size: 22px;
+}
+
+.modal-box .icon1 {
+  font-size: 60px;
+  background: #0b8cd7;
+  height: 120px;
+  width: 120px;
+  color: white;
+  border-radius: 50%;
+  line-height: 120px;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.modal-box header {
+  font-size: 28px;
+  font-family: sans-serif;
+  margin-bottom: 10px;
+}
+
+.modal-box p {
+  line-height: 20px;
+  color: grey;
+}
+
+form input, form button {
+  height: 50px;
+  width: 95%;
+  border-radius: 3px;
+}
+
+form .icon2 {
+  position: absolute;
+  height: 50px;
+  width: 50px;
+  margin-top: 15px;
+  background: #0b8cd7;
+  color: white;
+  line-height: 50px;
+  font-size: 24px;
+  border-radius: 5px 0 0 5px;
+}
+
+form input {
+  margin-top: 15px;
+  padding: 0 65px;
+  font-size: 18px;
+  outline: none;
+  border: 2px solid #0b8cd7;
+}
+
+input::placeholder {
+  color: #8c8c8c;
+}
+
+form button {
+  margin-top: 15px;
+  background: #0b8cd7;
+  color: white;
+  font-size: 25px;
+  border: 1px solid #0b8cd7;
+  letter-spacing: 1px;
+  cursor: pointer;
+  outline: none;
+  transition: .3s;
+}
+
+form button:hover {
+  background: #1ed2fa;
+  border: 1px solid #05cdfa;
+  letter-spacing: 2px;
+}
+
+.subscribe-btn {
+  background-color: #0b8cd7;
+}
+
+#subscribe {
+  margin-top: 10%;
+}
+
+/* Stylish button effects */
+.bn632-hover {
+  width: 160px;
+  font-size: 16px;
+  font-weight: 600;
+  color: #fff;
+  cursor: pointer;
+  margin: 20px;
+  height: 55px;
+  text-align: center;
+  border: none;
+  background-size: 300% 100%;
+  border-radius: 50px;
+  -o-transition: all 0.4s ease-in-out;
+  -webkit-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+}
+
+.bn632-hover:hover {
+  background-position: 100% 0;
+  moz-transition: all .4s ease-in-out;
+  -o-transition: all .4s ease-in-out;
+  -webkit-transition: all .4s ease-in-out;
+  transition: all .4s ease-in-out;
+}
+
+.bn632-hover:focus {
+  outline: none;
+}
+
+.bn632-hover.bn24 {
+  background-image: linear-gradient(to right,
+      #6253e1,
+      #852d91,
+      #a3a1ff,
+      #f24645);
+  box-shadow: 0 4px 15px 0 rgba(126, 52, 161, 0.75);
+}
+
+.btn-primary, .form-group{
+  font-family: serif;
+  text-align: center;
+  margin-right: -50%;
+}
+.contacth1{
+  font-family: 'Lobster', cursive;
+  text-align: center;
+  margin-right: -50%;
+}
+
+#contactus{
+  margin-top: 5%;
+  padding: 0 30%;
+}
+
+/* lamps */
+
+.lampmonthedition{
+  margin-top: -10%;
+  margin-bottom: -1.5%;
+}
+
+.lampmusicmantra{
+margin-bottom: -8%;
+}
+.lampslides{
+  margin-top: -5%;
+}
