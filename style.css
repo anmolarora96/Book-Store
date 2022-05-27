@@ -37,7 +37,9 @@ box-shadow: 0px 10px 10px 0px rgba(0, 0, 0, 0.5);
   font-family: 'Lobster', cursive;
   color: white;
 }
-
+#carouselExampleControls{
+  z-index:-1;
+}
 .mantra2 {
   margin-left: 10%;
   font-family: 'Lobster', cursive;
